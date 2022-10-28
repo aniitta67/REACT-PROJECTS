@@ -1,0 +1,44 @@
+.days{
+   min-height: 40vh;
+   
+   max-width: 100%;
+   /* display: flex; */
+   
+}
+.daywrapper{
+    min-height: 35vh;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    background-color: rgba(16, 231, 199, 0.72);
+    border-radius: 10px;
+}
+.dayimg{
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+.dayofweek{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.day{
+    color: red;
+    font-size: 2rem;
+}
+.degree{
+    font-size: 1.5rem;
+    font-weight: bold;
+  
+}
+.weather{
+    font-size: 1.5rem;
+}
+.weatherdetails{
+    font-size: 1rem;
+}

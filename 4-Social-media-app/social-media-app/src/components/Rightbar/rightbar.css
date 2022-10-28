@@ -1,0 +1,74 @@
+.rightbar{
+    flex: 25%;
+}
+.rightbarwrapper{
+    padding: 20px 20px 0 0;
+}
+.rightbartop{
+    display: flex;
+    align-items: center;
+}
+.birthimg{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.birthtext{
+    font-weight: 300;
+    font-size: 14px;
+
+}
+.mainimg{
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+
+.sidebarfriendlist{
+   
+    display: flex;
+    
+   /* border: 1px solid black; */
+}
+
+.friendlist-item{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.friendlist-item-img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+ 
+    position: relative;
+}
+.imgbadge{
+   
+    background-color: green;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+
+    border: 2px solid white;  
+    /* right: 260px; */
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    
+}
+.friendlist-item-name{
+    margin-left: 10px;
+}
+.sidebarfriendlist{
+    display: flex;
+    flex-direction: column;
+}
+

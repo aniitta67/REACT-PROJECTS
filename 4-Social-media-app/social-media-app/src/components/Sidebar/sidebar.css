@@ -1,0 +1,31 @@
+.sidebar{
+    flex: 25%;
+    height: calc(100vh-50px);
+}
+.sidebarwrapper{
+    padding: 20px;
+}
+ul.sidebarlist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li.sidebar-item{
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+ul.sidebarfriendlist{
+    list-style: none;
+}
+li.friendlist-item{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.friendlist-item-img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}

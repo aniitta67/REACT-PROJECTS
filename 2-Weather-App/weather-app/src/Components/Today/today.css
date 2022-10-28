@@ -1,0 +1,100 @@
+.today{
+    display: flex;
+    min-height: 40vh;
+    margin:2rem 0;
+ 
+}
+.todaywrapperleft{
+    flex: 4;
+    background-color: rgba(10, 89, 76, 0.486);
+    border-radius: 5px;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todaydetails{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.daydetails{
+    padding-bottom: 1rem;
+}
+.place{
+font-size: 3rem;
+}
+.date{
+    font-size: 2rem;
+}
+.population{
+    font-size: 1.5rem;
+}
+.todaywrapperright{
+    flex: 4;  
+    background-color: rgba(210, 210, 15, 0.572);
+    border-radius: 5px;
+    margin: 2rem;
+    display: flex;
+    padding: 1.5rem;
+    /* vertically aligns item center */
+    /* align-items: center; */
+    /* horizontally align items */
+    /* justify-content: center; */
+    
+}
+.right{
+    /* border: 2px solid black; */
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.climatedetailsimage{
+    height: 4rem;
+    width: 4rem;
+    object-fit: contain;
+}
+
+.climatedetails{
+    padding-bottom: 1.5rem;
+}
+.temp{
+  font-size: 3rem;
+}
+.weather{
+ font-size: 1.5rem;
+}
+.icons{
+    display: flex;   
+}
+.weathericon{
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.left{
+    /* border: 2px solid black; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+}
+
+.daytime{
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    
+}
+.dayimage{
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+}
+.image1{
+    display: flex; 
+}
+.image2{
+    display: flex; 
+}

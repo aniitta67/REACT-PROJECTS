@@ -1,0 +1,65 @@
+.share{
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 6px 3px rgba(0,0,0,0.2); 
+    box-shadow: 1px 1px 6px 3px rgba(0,0,0,0.2);
+}
+.sharewrapper{
+    padding: 10px;
+}
+.sharetop{
+    display: flex;
+    align-items: center;
+}
+.shareprofileimg{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.shareinput{
+    border: none;
+}
+.shareinput:focus{
+    outline: none;
+
+}
+.sharehr{
+    margin: 10px 0;
+}
+.sharebottom{
+    display: flex;
+    justify-content: space-between;
+}
+.shareoptions{
+    display: flex;
+   
+    
+}
+.shareoption{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+.gallery{
+    color: red !important;
+}
+.tag{
+    color: blue !important;
+}
+.location{
+    color: green !important;
+}
+.emoji{
+    color: rgb(255, 187, 0) !important;
+}
+
+.share-btn{
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    padding:5px 10px;
+}
