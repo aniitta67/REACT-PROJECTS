@@ -2,23 +2,19 @@ import React, { useState } from 'react';
 import './searchbar.css'
 import {Search} from '@mui/icons-material';
 
-const Searchbar = ({searchInput}) => {
+const Searchbar = ({searchInput,searchCity}) => {
 const [input,setInput]=useState({
   
 })
 
-const searchCity=(event)=>{
-  const value=event.target.value;
-  setInput({...input,value})
-}
-console.log("input==>",input)
+// const searchCity=(event)=>{
+//   const value=event.target.value;
+//   setInput({...input,value})
+// }
 
-const searchInputfgfgf=(e)=>{
-  e.preventDefault()
-  searchInput(input)
-}
+
   return (
-    <form onSubmit={searchInputfgfgf} >
+    <form onSubmit={searchInput} >
        <div className='searchbar'>
              <div className="searchbarwrapper">
              

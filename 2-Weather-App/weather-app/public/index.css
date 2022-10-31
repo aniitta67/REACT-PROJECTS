@@ -5,4 +5,5 @@ body{
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }

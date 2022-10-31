@@ -88,13 +88,18 @@ font-size: 3rem;
     
 }
 .dayimage{
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
     object-fit: contain;
 }
+
 .image1{
     display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 .image2{
     display: flex; 
+    justify-content: center;
+    align-items: center;
 }

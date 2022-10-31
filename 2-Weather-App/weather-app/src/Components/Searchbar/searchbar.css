@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    position: sticky;
   
 
 } 
@@ -21,14 +22,16 @@
 .topsearch-bar{
     border: none;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 128, 87, 0);
     border-radius: 30px;
     /* border: 2px solid #efeaea; */
     padding:1rem .5rem;
     
 }
-.topsearch-bar:focus{
+.topsearch-bar:focus,
+.topsearch-bar:hover{
     outline: none;
+    background-color: rgba(0, 128, 87, 0);
 }
 
 .searchicon{
